@@ -1,0 +1,78 @@
+cover:
+  title: 万事胜意
+  subtitle: Welcome to my blog
+  height_scheme: full # full, half
+  layout_scheme: search # search (搜索), dock (坞), featured (精选), focus (焦点)
+  features:
+plugins:
+  darkmode:
+    enable: true
+  parallax:
+    enable: true
+    position: cover       # cover: sticky on the cover.   fixed: Fixed as background for the site.
+    shuffle: true         # shuffle playlist
+    duration: 10000       # Duration (ms)
+    fade: 1500            # fade duration (ms) (Not more than 1500)
+    images:               # For personal use only. At your own risk if used for commercial purposes !!!
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/046.jpg
+custom_css:
+  
+  body:
+    effect: [shadow] # [shadow, floatable, blur]
+    highlight:
+      language: true # show language of codeblock
+      copy_btn: true
+    text_align: # left, right, justify, center
+      h1: left
+      h2: left
+      h3: left
+      h4: left
+      p: justify
+    note: # style for default note: {% note text %}
+      icon: '\f054'
+      color: ''
+  navbar:
+    height: 64px
+    effect: [shadow, blur] # [shadow, floatable, blur]
+  cursor:
+    enable: true
+    text: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/text.png
+    pointer: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png
+    default: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png
+    not-allowed: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/circle.png
+    zoom-out: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-out.png
+    zoom-in: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-in.png
+    grab: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/openhand.png
+    # 注意事项：建议规范全站路径 URL 最后带一个 "/" 例如 "about/"
+navbar:
+  logo: # choose [img] or [icon + title]
+    img:
+    icon:
+    title:
+  menu:
+    # The following can be written in `blog/source/_data/menu.yml`
+    - name: 博客
+      icon: fas fa-rss
+     
+  search:  Search bar placeholder
+
+blogger:
+  class: blogger
+  display: [desktop] # [desktop, mobile]
+  avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
+  title:
+  subtitle:
+  jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+  social: true
+category:
+  class: category
+  display: [desktop] # [desktop, mobile]
+  header:
+    icon: fas fa-folder-open
+    title: 文章分类
+    url: /blog/categories/
+    search:
+  enable: true
+  service: hexo  # hexo
+  js: https://cdn.jsdelivr.net/xxxxxxxx/js/search/hexo.js
